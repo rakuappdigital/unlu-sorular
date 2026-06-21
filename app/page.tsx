@@ -136,10 +136,15 @@ function QuestionCard({ q, index, total, animClass }: { q: Question; index: numb
   return (
     <div key={index} className={`rounded-2xl p-8 md:p-12 mb-8 glow-border ${animClass}`}
       style={{ background: "var(--card)", border: "1px solid var(--border)" }}>
-      <div className="mb-6">
+      <div className="flex items-center gap-3 mb-6 flex-wrap">
         <span className={`inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border font-medium tracking-wide ${CATEGORY_COLORS[q.category]}`}>
           {q.emoji} {q.category}
         </span>
+        {q.author && (
+          <span className="text-xs italic" style={{ color: "var(--muted)" }}>
+            — {q.author}
+          </span>
+        )}
       </div>
       <p className="text-2xl md:text-3xl leading-relaxed font-medium"
         style={{ color: "var(--text)", fontFamily: "'Playfair Display', serif" }}>
