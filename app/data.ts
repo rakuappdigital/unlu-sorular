@@ -101,27 +101,27 @@ export const QUESTIONS: Question[] = [
   {
     id: 1, category: "Müzik", emoji: "🎡",
     author: "trenin son vagonunda giden",
-    text: "'Bi o yana bi bu yana' diyorsun ama hiç durmuyorsun — bu şarkıyı dinleyince o döngünün hâlâ devam ettiğini hissettiriyor. Gerçekten bitti mi o dönme dolap?",
+    text: "Dönme Dolap'ı dinleyince o döngü hâlâ devam ediyormuş gibi hissettiriyor. Gerçekten bitti mi?",
   },
   {
     id: 2, category: "Müzik", emoji: "⛓️",
     author: "sinyal bekleyen",
-    text: "'Esirim sanki, sebebim baki' — neyin esirisin? Şarkının hiçbir yerinde cevap vermedin, ve bu biraz da kasıtlı değil mi?",
+    text: "Neyin esirisin, biliyor musun? Şarkıda hiç cevap vermedin.",
   },
   {
     id: 3, category: "Komik", emoji: "🍺",
     author: "ekmeği her zaman fazla yiyen",
-    text: "'Bitiyor mu biram, bitecek gibi' diye açılan bir şarkı var. O an gerçekten bira içiyor muydun, yoksa bu biraz fazla sinematik bir açılış mı oldu?",
+    text: "Şarkı birayla açılıyor. Gerçekten o an bira içiyor muydun yoksa onu mu koydun çünkü güzel durdu?",
   },
   {
     id: 4, category: "Müzik", emoji: "💿",
     author: "sinemada hep ön sıraya geçen",
-    text: "'Çatlak bi plaktan gelen sesler gibi / bu iş böyledir' — bu kabulleniş çok ağır. Bunu yazan biri o an neyi kabulleniyordu?",
+    text: "'Bu iş böyledir' deyip kapatan bir satır bu. O an ne kabulleniyordun?",
   },
   {
     id: 5, category: "Müzik", emoji: "🚬",
     author: "şemsiyesini evde unutan",
-    text: "'Kirli bi tavan, az hava çok duman' — bunu okuyunca somut bir yer hayal ediyorum. Gerçek bir mekân mıydı bu, yoksa zihinsel bir mekân mı?",
+    text: "'Kirli bi tavan, az hava çok duman' — bu gerçek bir yerin tasviri mi? Hâlâ var mı o yer?",
   },
   {
     id: 6, category: "Komik", emoji: "🤡",
@@ -133,22 +133,22 @@ export const QUESTIONS: Question[] = [
   {
     id: 7, category: "Aşk & İlişki", emoji: "💘",
     author: "telefonu şarj etmeyi unutan",
-    text: "'Ruhuma daldın bu nasıl bi soygun?' diyorsun — bu soygundan şikayetçi misin gerçekten, yoksa içten içe hoşuna mı gidiyor?",
+    text: "Kirpik'te 'bu nasıl bi soygun' diyorsun. Soygundan şikayetçi misin, yoksa aslında hoşuna mı gitti?",
   },
   {
     id: 8, category: "Müzik", emoji: "🎵",
     author: "yanlış durakta inen",
-    text: "'Bu işin cahili benim yalansız' — planın olmayışını neden bu kadar rahat söyleyebiliyorsun? Bu bir güç mü yoksa bir savunma mekanizması mı?",
+    text: "'Bu işin cahili benim' diyorsun, plansız ve korkusuz. Bu tutum işe yaradı mı o kez?",
   },
   {
     id: 9, category: "Aşk & İlişki", emoji: "⏳",
     author: "çayını şekersiz içen",
-    text: "'Beklemenin ne faydası var? söyle bileyim' — bu soruya cevap geldi mi? Faydası var mıydı?",
+    text: "'Beklemenin ne faydası var, söyle bileyim' — söyledi mi? Cevap geldi mi?",
   },
   {
     id: 10, category: "Aşk & İlişki", emoji: "❄️",
     author: "her şeyi mavi kalemle yazan",
-    text: "'Gittin gideli bu zemheri' — zemheri kelimesini seçmek güçlü bir karardı, soğuğun en ağır hali bu. O gidiş gerçekten o kadar ağır mıydı?",
+    text: "Zemheri kelimesini seçmek büyük bir karardfı. O gidiş gerçekten o kadar soğuk muydu?",
   },
   {
     id: 11, category: "Müzik", emoji: "🎶",
@@ -182,17 +182,17 @@ export const QUESTIONS: Question[] = [
   {
     id: 16, category: "Hayat", emoji: "🧩",
     author: "yağmurda şemsiye açmayan",
-    text: "'Aptal mıyım neyim çözemedim ah!' — şarkında kendi kendine iki seçenek sunuyorsun. Ama üçüncü bir ihtimal var mı, o ihtimali hiç düşündün mü?",
+    text: "'Aptal mıyım, korkak mıyım' diye soruyorsun. Bunların dışında üçüncü bir ihtimal var mı?",
   },
   {
     id: 17, category: "Aşk & İlişki", emoji: "📄",
     author: "en uzun yoldan giden",
-    text: "'Koparmıyorum sakladım o sayfaları / gelirsin diye / e gelmedin niye?' — bu satır içime oturdu. O sayfalar fiziksel mi, dijital mi? Hâlâ duruyor mu bir yerde?",
+    text: "Sayfaları koparmayıp sakladın gelir diye. Geldi mi?",
   },
   {
     id: 18, category: "Aşk & İlişki", emoji: "🏃",
     author: "radyoyu kapatmayan",
-    text: "'Kaçtım ve kaçırdım seni' — ikisi aynı anda gerçekleşmiş, bu çok acı. Kaçarken kaçırdığını o an mı fark ettin, yoksa çok sonra mı?",
+    text: "Kaçarken kaçırdığını ne zaman anladın? O an mı, yoksa çok sonra mı?",
   },
   {
     id: 19, category: "Hayat", emoji: "🚶",
@@ -204,17 +204,17 @@ export const QUESTIONS: Question[] = [
   {
     id: 20, category: "Aşk & İlişki", emoji: "🧩",
     author: "asansörü bekleyemeyen",
-    text: "'Yap-boz gibi kalbim senin elinde' — bu kişi şarkıyı duydu mu? Duymuşsa tepkisi ne oldu? Meraktan soruyorum çünkü bu çok açık bir şey.",
+    text: "Yap Boz'daki o kişi şarkıyı duydu mu ve tepkisi ne oldu?",
   },
   {
     id: 21, category: "Müzik", emoji: "🎵",
     author: "haritasız yolculuk yapan",
-    text: "'Şarkılarımı hep sana yazıp uykularımı hep sana bölüp' — bu şarkıyla birlikte o kişi için kaç tane oldu? Bir noktada bitmesi gerekmez mi?",
+    text: "Bu şarkıyla birlikte o kişi için kaçıncı oldu? Bir sonu var mı bunun?",
   },
   {
     id: 22, category: "Aşk & İlişki", emoji: "🌧️",
     author: "şarkıyı yanlış bilen",
-    text: "'Koştukça koştum sana / ardından yorgun / biraz da kırgın' — o yorgunluğun içinde duraksadığın bir an oldu mu? Durmayı düşündün mü?",
+    text: "Koşarken yorulduğunu söylüyorsun. Gerçekten duraksadın mı hiç?",
   },
   {
     id: 23, category: "Aşk & İlişki", emoji: "💔",
@@ -231,7 +231,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 25, category: "Aşk & İlişki", emoji: "🤐",
     author: "sinemanın kapanışında çıkan",
-    text: "'Bazen susardık da çok iyi kotardık' — bu benim için en güçlü satırlardan biri. İki insan susarak ne kotarıyor olabilir?",
+    text: "'Bazen susardık da çok iyi kotardık' — o sessizlikte ne vardı?",
   },
   {
     id: 26, category: "Hayat", emoji: "🔑",
@@ -253,7 +253,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 29, category: "Müzik", emoji: "🌙",
     author: "konuşmayı yarıda bırakan",
-    text: "'Aya gidelim, bi ara kavga edelim, sonunu bilmeyelim' — kavgayı plana koyuyorsun. Bu dürüstlük mü romantizm mi, yoksa ikisi aynı şey mi?",
+    text: "Kavgayı plana koydun. Kavgasız bir ilişkiden şüphe eder misin?",
   },
   {
     id: 30, category: "Aşk & İlişki", emoji: "⚗️",
@@ -273,7 +273,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 33, category: "Aşk & İlişki", emoji: "🤝",
     author: "yabancı şehirde kaybolmayan",
-    text: "'Bile bile biz düşebiliriz / kime neymiş kalkarız ikimiz' — bu kısım bende çok umut uyandırıyor. Kalktınız mı?",
+    text: "'Bile bile düşebiliriz, kalkarız ikimiz' diyorsun. Kalktınız mı?",
   },
   {
     id: 34, category: "Komik", emoji: "🏊",
@@ -312,7 +312,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 40, category: "Müzik", emoji: "🔊",
     author: "şehrin kenarında yaşayan",
-    text: "Son Disko, Aya Gidelim, Aklımın Bucakları — aynı yıl üç albüm çıkardın. Bunlar gerçekten farklı dönemler mi yoksa aynı sel birden mi taştı?",
+    text: "Aynı yıl üç albüm çıkardın. Bunlar gerçekten farklı dönemler mi yoksa aynı dalga mıydı?",
   },
   {
     id: 41, category: "Müzik", emoji: "🎙️",
@@ -349,7 +349,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 47, category: "Oyunculuk", emoji: "📺",
     author: "randevuyu şaşıran",
-    text: "Tarık 90'larda ünlüydü, şimdi AVM'lerde kimsenin ilgilenmediği açılışlar yapıyor. Bu karakter sende bir şeye dokundu mu, yoksa tamamen uzak mıydı?",
+    text: "Tarık sana ne kadar yakın bir karakter? Hiç tanıdık geldi mi?",
   },
   {
     id: 48, category: "Oyunculuk", emoji: "🎬",
@@ -398,7 +398,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 56, category: "Hayat", emoji: "💭",
     author: "bildirimi kapatan",
-    text: "'Bi şekilde olur' mu gerçekten? Bu bir iyimserlik cümlesi mi yoksa tembellerin kendini rahatlatma yöntemi mi? İkisi aynı şey mi sence?",
+    text: "'Bi şekilde olur' mu gerçekten? Bu bir iyimserlik mi yoksa sorumluluktan kaçmak mı?",
   },
   {
     id: 57, category: "Hayat", emoji: "🌙",
@@ -430,7 +430,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 62, category: "Aşk & İlişki", emoji: "📝",
     author: "bavulunu en geç alan",
-    text: "Bu kadar şarkı, bu kadar kişi — tek kişi için mi bunlar, yoksa farklı insanlar mı? Dürüst ol, çünkü sözler o kadar spesifik ki hepsinin aynı kişi için olduğuna inanmak zor.",
+    text: "Bu kadar şarkı var. Hepsi aynı kişi için mi? Dürüst ol.",
   },
   {
     id: 63, category: "Aşk & İlişki", emoji: "💬",
@@ -440,7 +440,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 64, category: "Aşk & İlişki", emoji: "🔥",
     author: "otel odasını yanlış anlayan",
-    text: "'Korkusuz vaziyetim ve de plansız' — bu his ne kadar sürdü? Çünkü şarkıların geri kalanında o korkusuzluktan eser yok.",
+    text: "'Korkusuz ve plansız' hissi ne kadar sürdü? Çünkü şarkıların geri kalanında o his yok.",
   },
   {
     id: 65, category: "Aşk & İlişki", emoji: "📱",
@@ -450,7 +450,7 @@ export const QUESTIONS: Question[] = [
   {
     id: 66, category: "Aşk & İlişki", emoji: "💔",
     author: "dönüş biletini almayan",
-    text: "Geçmişte pişman olduğun tek bir şey söyle. 'Her şey' değil, gerçekten bir şey.",
+    text: "Geçmişte pişman olduğun bir şey var mı? Spesifik bir şey, 'her şey' değil.",
   },
   {
     id: 67, category: "Aşk & İlişki", emoji: "🤍",
@@ -689,6 +689,103 @@ export const QUESTIONS: Question[] = [
     author: "platformsuz dünyayı hayal eden",
     text: "Sosyal medya olmasa Krant bugün var olur muydu? Dürüst cevap.",
   },
+
+  // ── GÜNLÜK HAYAT & KİŞİLİK ─────────────────────────────────────
+  {
+    id: 112, category: "Hayat", emoji: "🌅",
+    author: "yataktan zor kalkan",
+    text: "Sabah uyandığında ilk ne yapıyorsun? Telefona mı bakıyorsun, yoksa biraz öylece yatıyor musun?",
+  },
+  {
+    id: 113, category: "Komik", emoji: "😐",
+    author: "garip soruları seven",
+    text: "Arkadaşların seni nasıl anlatıyor sence? 'O şöyle biridir' deseler ne söylerler?",
+  },
+  {
+    id: 114, category: "Hayat", emoji: "🔄",
+    author: "değişimi fark eden",
+    text: "Son birkaç yılda sende en çok ne değişti? Fark ettin mi yoksa başkaları mı söyledi?",
+  },
+  {
+    id: 115, category: "Aşk & İlişki", emoji: "💬",
+    author: "çevre dolaşmayı bilen",
+    text: "Birine yaklaşmak istediğinde ne yapıyorsun? Direkt mi gidiyorsun yoksa etrafı mı dolaşıyorsun?",
+  },
+  {
+    id: 116, category: "Komik", emoji: "🙃",
+    author: "yanlış yerde yanlış zamanda",
+    text: "Tanındığın bir yerde biri seni tanıyıp 'söylesem garip olur' deyip uzaklaşsa — ne hissederdin?",
+  },
+  {
+    id: 117, category: "Hayat", emoji: "🪫",
+    author: "enerjisi biten biri",
+    text: "Ne zaman gerçekten bitik hissediyorsun? Ve o an ne yapıyorsun?",
+  },
+  {
+    id: 118, category: "Hayat", emoji: "⚡",
+    author: "iyi ve kötüyü dengeleyen",
+    text: "Şu an çok iyi gittiğini düşündüğün bir şeyle, berbat gittiğini düşündüğün bir şeyi söyle.",
+  },
+  {
+    id: 119, category: "Komik", emoji: "🤔",
+    author: "karar veremeyen",
+    text: "Canının en çok çektiği yemek ne ama hiçbir zaman tam istediğin gibi çıkmıyor?",
+  },
+  {
+    id: 120, category: "Hayat", emoji: "🗺️",
+    author: "yanlış yerde hisseden",
+    text: "Hayatında 'yanlış yerdeyim' dediğin oldu mu? Ne yaptın o an?",
+  },
+  {
+    id: 121, category: "Magazin", emoji: "🎭",
+    author: "başka biri olmayı deneyen",
+    text: "Bir günlüğüne başka biri olsan kim olurdun? Ve o gün ne yapardın?",
+  },
+  {
+    id: 122, category: "Aşk & İlişki", emoji: "😶",
+    author: "lafı dolandıran",
+    text: "Bir şeyi söylemek isteyip söyleyemediğin oldu mu son zamanlarda? O şeyle ne oldu?",
+  },
+  {
+    id: 123, category: "Hayat", emoji: "🌙",
+    author: "gece geç uyuyan",
+    text: "Gece uykun gelmediğinde ne yapıyorsun? Telefona mı dalıyorsun, yoksa başka bir şey mi?",
+  },
+  {
+    id: 124, category: "Komik", emoji: "😳",
+    author: "utanma anını unutamayan",
+    text: "Son zamanlarda yaşadığın en utanç verici an ne? Anlat, geçer.",
+  },
+  {
+    id: 125, category: "Hayat", emoji: "👥",
+    author: "kalabalıktan kaçan",
+    text: "Kalabalık bir ortamda uzun süre kalmak seni yoruyor mu? Bundan nasıl çıkıyorsun?",
+  },
+  {
+    id: 126, category: "Komik", emoji: "📵",
+    author: "telefon bağımlısı olmayan",
+    text: "Telefonunu kaybettin, tam 24 saat yok. Ne hissedersin, ne yaparsın?",
+  },
+  {
+    id: 127, category: "Hayat", emoji: "🧳",
+    author: "aniden gidebilen",
+    text: "Şu an biri sana 'yarın bir haftaya gidiyoruz, hazır mısın' dese — gider miydin?",
+  },
+  {
+    id: 128, category: "Aşk & İlişki", emoji: "🚪",
+    author: "kapıyı açmayı bilen",
+    text: "Birini hayatına sokmak ne kadar sürüyor senin için? Hızlı mısın, yavaş mısın?",
+  },
+  {
+    id: 129, category: "Hayat", emoji: "💤",
+    author: "uyku düzeni bozuk",
+    text: "En iyi uyuduğun an ne zamandı? Ve en kötü uyuduğun dönem hangisiydi?",
+  },
+  {
+    id: 130, category: "Komik", emoji: "🍽️",
+    author: "yemek saatini kaçıran",
+    text: "Boş bir günün olsa, sabahtan akşama kadar ne yaparsın? Planlanmamış, sadece ne gelirse.",
+  },
 ];
 
 // ─── ONEDİO SORULARI ──────────────────────────────────────────────
@@ -910,5 +1007,82 @@ export const ROAST_ENTRIES: RoastEntry[] = [
     id: 35,
     nick: "eski şarkıları seven biri",
     text: "krant the band 2026'da kurulmuş ve aynı yıl üç albüm çıkarmış. bu ya çok verimli bir yaratıcılık ya da hazır bekleyen bir sürü malzeme vardı demek. ikisi de iyi bir hikaye ama farklı hikayeler.",
+  },
+
+  // ── UYDURMA OLAYLAR ────────────────────────────────────────────
+  {
+    id: 36,
+    nick: "dedikodu takipçisi",
+    text: "bir kafede oturmuş, garson şarkılarını tanımış ve 'sizi tanıdım' demiş. 'hayır ben değilim' deyip çıkmış. o gün öğleden sonra instagram'da o kafenin önünde fotoğraf çekmiş. garson muhtemelen görmüş.",
+  },
+  {
+    id: 37,
+    nick: "stüdyo muhbiri",
+    text: "bi şekilde şarkısını kaydederken stüdyodan erken çıkmış. galatasaray maçı varmış, kulaklıkla izliyormuş, bas gitaristi fark etmiş. 'dur bir dakika' deyip çıkmış. o gün bir daha girmemiş stüdyoya.",
+  },
+  {
+    id: 38,
+    nick: "set habercisi",
+    text: "kuyu setinde haluk bilginer'in aracına yanlışlıkla binmiş. şoför hareket etmiş. 10 dakika sonra haluk bilginer telefon açmış. o zaman anlamış nerede olduğunu. bu olayı kim anlattıysa çok güldü.",
+  },
+  {
+    id: 39,
+    nick: "backstage gözlemcisi",
+    text: "cem yılmaz'ın setinde bir sahne 14 kez çekilmiş. 12. çekimde güldüğü için değil, 12. çekimde telefonunu çekim alanında unuttuğunu hatırladığı için sahneyi bırakmış. yönetmen saatlerce beklemiş.",
+  },
+  {
+    id: 40,
+    nick: "konser kulisi",
+    text: "bir sahnede kendi şarkısının sözünü yanlış söylemiş. izleyici doğrusunu bağırmış. 'biliyorum ya' deyip geçmiş ama devam etmiş yanlış söylemeye. o konser kaydı hâlâ bir yerde duruyormuş.",
+  },
+  {
+    id: 41,
+    nick: "stadyum vakası araştırmacısı",
+    text: "galatasaray maçında tribünde kameralar yakalamış: tam yanında fenerbahçe atkısı takmış biri oturuyormuş. maç boyunca ikisi de hiçbir şey söylememiş. bu sıradan bir tesadüf mü yoksa büyük bir uzlaşma mı, bilinmiyor.",
+  },
+  {
+    id: 42,
+    nick: "motosiklet görgü tanığı",
+    text: "motosikletle uzun yola çıkmış ama ilk şehirde benzin bitmiş. 3 saat kenarda beklemiş. o 3 saatte çözemedim şarkısını yazmış olabileceği iddia ediliyor ama bu kanıtlanmamış.",
+  },
+  {
+    id: 43,
+    nick: "sosyal medya arkeoloji ekibi",
+    text: "2023'te attığı bir tweet var: 'hayatta hiç galatasaray'ı desteklemekten pişman olmadım.' altına biri 'galatasaray 0-3 fenerbahçe' diye yazmış. o tweeti silmiş. ama internet unutmuyor, ekran görüntüsü dolaşıyor.",
+  },
+  {
+    id: 44,
+    nick: "kayıp ses dosyası vakası",
+    text: "ankara gecesi şarkısının ilk demosunda farklı bir kıta varmış. o kıtayı çıkarmışlar çünkü çok spesifik bir kişiyi işaret ediyormuş. o kişinin hâlâ bilip bilmediği bilinmiyor ama bazıları biliyor.",
+  },
+  {
+    id: 45,
+    nick: "yakın çevre muhabiri",
+    text: "bir yemekte kendi şarkısı çalmış arka planda. fark etmemiş. yanındaki 'bu senin şarkın değil mi' deyince 'öyle mi, güzelmiş' demiş. bu hikayeyi anlatan birden fazla kişi var.",
+  },
+  {
+    id: 46,
+    nick: "biz de ünlüydük set analisti",
+    text: "biz de ünlüydük çekimlerinde o twist sahnesi 7 kez çekilmiş. 5. çekimde twist'i atlayıp normal devam etmiş. kimse söyleyememiş çünkü yönetmen o an telefonundaymış. 6. çekimde hatırlatılmış.",
+  },
+  {
+    id: 47,
+    nick: "spotify çalma listesi dedektifi",
+    text: "spotify dinleme geçmişi bir yerden sızdırılmış. en çok dinlediği sanatçılar arasında krant the band yok. kendi müziğini en az dinleyen krant the band üyesidir bu durumda.",
+  },
+  {
+    id: 48,
+    nick: "röportaj arşivleri",
+    text: "bir röportajda 'asla fenerbahçeyle ilgili bir şey yapmam' demiş. bir ay sonra aklımın bucaklarında çıkmış. kimse bağlantı kurmamış ama kuranlar var ve susuyorlar.",
+  },
+  {
+    id: 49,
+    nick: "yayın akışı araştırmacısı",
+    text: "her şey çok güzel olacak 2 vizyona girdiğinde tanıtım röportajlarına katılmamış. sebebi olarak 'stüdyo çalışması' demiş. o hafta motosikletle izmir-ankara yolunda görülmüş. stüdyo arabada mı bilmiyorum.",
+  },
+  {
+    id: 50,
+    nick: "demo kaseti bulan",
+    text: "yap boz şarkısının ilk adının 'dikdörtgen' olduğu söyleniyor. ekip reddetmiş. 'yapboz daha romantik' demişler. buna nasıl itiraz edebilirsin ki.",
   },
 ];
