@@ -3,13 +3,13 @@
 import { useState, useEffect, useCallback } from "react";
 import {
   QUESTIONS, PERSONA, ALL_CATEGORIES, CATEGORY_COLORS, CATEGORY_EMOJIS,
-  ONEDIO_QUESTIONS,
-  type Category, type Question, type OnedioQuestion,
+  ONEDIO_QUESTIONS, ROAST_ENTRIES,
+  type Category, type Question, type OnedioQuestion, type RoastEntry,
 } from "./data";
 
 type MainScreen = "start" | "quiz" | "done";
 type OnedioScreen = "pick" | "question" | "done";
-type Tab = "röportaj" | "onedio";
+type Tab = "röportaj" | "onedio" | "roast";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -525,32 +525,134 @@ function OnedioGame({ onBack }: { onBack: () => void }) {
   );
 }
 
+// ── ROAST ─────────────────────────────────────────────────────────
+function RoastTab() {
+  const [deck, setDeck] = useState<RoastEntry[]>([]);
+  const [index, setIndex] = useState(0);
+  const [history, setHistory] = useState<number[]>([]);
+  const [animating, setAnimating] = useState(false);
+  const [animDir, setAnimDir] = useState<"fwd" | "back">("fwd");
+
+  useEffect(() => { setDeck(shuffle(ROAST_ENTRIES)); }, []);
+
+  const go = (dir: "fwd" | "back") => {
+    if (animating) return;
+    if (dir === "back" && history.length === 0) return;
+    setAnimDir(dir);
+    setAnimating(true);
+    setTimeout(() => {
+      if (dir === "fwd") {
+        setHistory(h => [...h, index]);
+        setIndex(i => (i + 1) % deck.length);
+      } else {
+        const prev = history[history.length - 1];
+        setHistory(h => h.slice(0, -1));
+        setIndex(prev);
+      }
+      setAnimating(false);
+    }, 260);
+  };
+
+  useEffect(() => {
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight" || e.key === "Enter") go("fwd");
+      if (e.key === "ArrowLeft" && history.length > 0) go("back");
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [animating, history, index, deck.length]);
+
+  const current = deck[index];
+  if (!current) return null;
+
+  const animClass = animating
+    ? (animDir === "fwd" ? "animate-slide-out" : "animate-slide-out-back")
+    : "animate-fade-in-up";
+
+  const seen = history.length + 1;
+
+  return (
+    <div className="w-full max-w-2xl mx-auto">
+      <div className="fixed top-8 left-0 right-0 z-40">
+        <div className="h-0.5 w-full" style={{ background: "var(--border)" }}>
+          <div className="progress-bar h-0.5" style={{ width: `${(seen / deck.length) * 100}%` }} />
+        </div>
+      </div>
+
+      <div className="flex items-center justify-between mb-8">
+        <span className="text-xs tracking-widest uppercase" style={{ color: "#ef4444" }}>
+          🔥 ROAST
+        </span>
+        <span className="text-sm" style={{ color: "var(--muted)" }}>{seen} / {deck.length}</span>
+      </div>
+
+      <div key={index} className={`rounded-2xl p-8 md:p-12 mb-8 ${animClass}`}
+        style={{
+          background: "var(--card)",
+          border: "1px solid rgba(239,68,68,0.25)",
+          boxShadow: "0 0 32px rgba(239,68,68,0.07)",
+        }}>
+        <p className="text-xs italic mb-6" style={{ color: "rgba(239,68,68,0.6)" }}>
+          — {current.nick}
+        </p>
+        <p className="text-xl md:text-2xl leading-relaxed"
+          style={{ color: "var(--text)", fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>
+          "{current.text}"
+        </p>
+      </div>
+
+      <div className="flex gap-3 justify-center">
+        <button onClick={() => go("back")} disabled={history.length === 0}
+          className="btn-skip px-6 py-3.5 rounded-full text-sm disabled:opacity-30 disabled:cursor-not-allowed">
+          ← Geri
+        </button>
+        <button onClick={() => go("fwd")}
+          className="px-8 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all hover:scale-105"
+          style={{ background: "linear-gradient(135deg, #ef4444, #f97316)", color: "#fff" }}>
+          Sonraki 🔥
+        </button>
+      </div>
+      <p className="text-center mt-5 text-xs" style={{ color: "var(--muted)" }}>← → ok tuşları da çalışır</p>
+    </div>
+  );
+}
+
 // ── ROOT ───────────────────────────────────────────────────────────
 export default function Home() {
   const [tab, setTab] = useState<Tab>("röportaj");
-  const [showProfile, setShowProfile] = useState(false);
+
+  const TAB_LABELS: Record<Tab, string> = {
+    "röportaj": "🎤 Röportaj",
+    "onedio": "🫙 Onedio",
+    "roast": "🔥 Roast",
+  };
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4 py-12 relative">
       <Stars />
-      {showProfile && <ProfileModal onClose={() => setShowProfile(false)} />}
 
       {/* Tab bar */}
       <div className="fixed top-0 left-0 right-0 z-30 flex items-center justify-center gap-1 pt-3 pb-2"
         style={{ background: "rgba(10,10,15,0.9)", backdropFilter: "blur(12px)", borderBottom: "1px solid var(--border)" }}>
-        {(["röportaj", "onedio"] as Tab[]).map(t => (
+        {(["röportaj", "onedio", "roast"] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
-            className={`px-5 py-1.5 rounded-full text-xs font-medium tracking-wider uppercase transition-all ${tab === t ? "btn-next" : "text-[var(--muted)] hover:text-[var(--text)]"}`}>
-            {t === "röportaj" ? "🎤 Röportaj" : "🫙 Onedio"}
+            className={`px-4 py-1.5 rounded-full text-xs font-medium tracking-wider uppercase transition-all ${
+              tab === t
+                ? t === "roast"
+                  ? "text-white"
+                  : "btn-next"
+                : "text-[var(--muted)] hover:text-[var(--text)]"
+            }`}
+            style={tab === t && t === "roast" ? { background: "linear-gradient(135deg,#ef4444,#f97316)" } : {}}>
+            {TAB_LABELS[t]}
           </button>
         ))}
       </div>
 
       <div className="w-full flex justify-center mt-10 relative z-10">
-        {tab === "röportaj"
-          ? <MainQuiz onBack={() => {}} />
-          : <OnedioGame onBack={() => setTab("röportaj")} />
-        }
+        {tab === "röportaj" && <MainQuiz onBack={() => {}} />}
+        {tab === "onedio" && <OnedioGame onBack={() => setTab("röportaj")} />}
+        {tab === "roast" && <RoastTab />}
       </div>
     </main>
   );

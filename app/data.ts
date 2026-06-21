@@ -727,3 +727,188 @@ export const ONEDIO_QUESTIONS: OnedioQuestion[] = [
   { id: 29, type: "negative", text: "Biz de Ünlüydük! çok konuşuldu ama o twist gerçekten organik mi hissettirdi, yoksa bir trick miydi?" },
   { id: 30, type: "negative", text: "Şarkılarında hep 'kaçtım, korkaktım, aptal mıyım' diyorsun. Bu dürüstlük mü, yoksa sempati toplamak için mi?" },
 ];
+
+// ─── ROAST ────────────────────────────────────────────────────────
+export interface RoastEntry {
+  id: number;
+  nick: string;
+  text: string;
+}
+
+export const ROAST_ENTRIES: RoastEntry[] = [
+  {
+    id: 1,
+    nick: "akustik disko meraklısı",
+    text: "yap boz şarkısında o kadar duygudan bahsetmiş ama hiçbiri insana geçmiyor. bi kere yapboz duygusal bir olay değil, o bir oyuncak. bence uydurma sözler yazan biri.",
+  },
+  {
+    id: 2,
+    nick: "şarkı sözü analisti olmayan biri",
+    text: "çözemedim şarkısında aptal mıyım korkak mıyım diye soruyor. ikisi de değilsin kardeşim, sadece karar veremiyorsun. bunun şarkısı yapılmaz normalde.",
+  },
+  {
+    id: 3,
+    nick: "spotify istatistiklerini seven",
+    text: "krant the band 28 aylık dinleyicisi var. 28. bu bir başarı değil bu bir tablo. ama 'hâlâ yapılıyor' yazmasında da bir dürüstlük var, en azından kendi durumunu biliyor.",
+  },
+  {
+    id: 4,
+    nick: "kuyu'yu beklentisiz izleyen",
+    text: "haluk bilginer'le aynı filmde oynuyor ve bunu her fırsatta söylüyor. haluk bilginer'in aynı filmde olması senin başarın değil, senin şansın. bu ikisini karıştırıyor gibi.",
+  },
+  {
+    id: 5,
+    nick: "biz de ünlüydük ikinci sezon beklentisi olan",
+    text: "biz de ünlüydük'teki o twist'i çok geç açıkladılar. final bölümüne kadar izledim, o zamana kadar zaten anlamıştım ama kimseye söylememiştim çünkü sürprizi bozmak istemedim. kendimi fazla iyi hissettim.",
+  },
+  {
+    id: 6,
+    nick: "aya gidemeyecek olan",
+    text: "aya gidelim demiş şarkıda. aya gitmek için para, teknoloji ve oksijen lazım. bunların hiçbirinden bahsetmemiş. kavgayı plana koymuş ama lojistiği unutmuş. bu çok tipik.",
+  },
+  {
+    id: 7,
+    nick: "motosiklet sürücüsü olmayan",
+    text: "motosikletle uzun yol yapıyor ve derin adam imajı çiziyor. ama şarkılarında tek bir kez bile yol metaforu yok. yani ya motosikleti şarkıya taşımıyor ya da motosiklet aslında o kadar da önemli değil.",
+  },
+  {
+    id: 8,
+    nick: "galatasaray'ı kurtaran biri",
+    text: "galatasaray kaybedince stüdyoya giriyor ve şarkı yazıyor. galatasaray kazanınca ne yapıyor? bunu sormak lazım çünkü o şarkılar hiç çıkmıyor.",
+  },
+  {
+    id: 9,
+    nick: "bi şekilde geçen biri",
+    text: "bi şekilde şarkısında 'ha elimde ha ilerde bi şekilde' diyor. bu cümle aslında hiçbir şey söylemiyor. çok güzel hissettiriyor ama içine bakınca bomboş. bunu yapabilmek de bir yetenek sayılır.",
+  },
+  {
+    id: 10,
+    nick: "cem yılmaz filmlerini sayan",
+    text: "cem yılmaz filminde yan rol oynamış ve bunu özgeçmişinin en üstüne koymuş. yan rol. cem yılmaz'ın filminde yan rol oynamak, bir arkadaşının düğününde nikah şahidi olmak gibi bir şey. oradaydın ama sen değildin konu.",
+  },
+  {
+    id: 11,
+    nick: "dönme dolap binmekten korkan",
+    text: "dönme dolap şarkısında metafor olarak dönme dolabı seçmiş. lunapark metaforları 2015'te bitti sanıyordum ama görünüşe göre devam ediyor. en azından atlıkarınca dememesi iyi.",
+  },
+  {
+    id: 12,
+    nick: "kirpik saydıran biri",
+    text: "kirpik şarkısında 'kirpiklerin dudakların gözlerin' demiş. bunlar zaten birbirinin yanında olan şeyler. yüzün tamamını saymış, bunu romantik yapmış. teknik olarak doğru ama yaratıcılık puanı düşük.",
+  },
+  {
+    id: 13,
+    nick: "ne fark eder diyen biri",
+    text: "ne fark eder şarkısı var. bu şarkıyı yapacak kadar önem vermiş ama şarkının adı ne fark eder. bu ironi kasıtlı olsaydı akıllıca olurdu. kasıtlı mıydı emin değilim.",
+  },
+  {
+    id: 14,
+    nick: "aklımın bucaklarını sayan",
+    text: "aklımın bucaklarında şarkısında 'sabah içtiğim kahve sohbetimsin' demiş. sabah kahvesi artık her şeyin metaforu oldu. eski sevgili, yeni sevgili, memleket, anne. biri dur desin.",
+  },
+  {
+    id: 15,
+    nick: "tarık'ı seven seyirci",
+    text: "biz de ünlüydük'te 90'larda ünlü olmuş bir karakteri oynamış. hayatının bir döneminde de ünlü olmak istemiş olmalı ki bu rolü seçmiş. bu tür örtüşmeler tesadüf değildir.",
+  },
+  {
+    id: 16,
+    nick: "bechdel testini geçmeye çalışan yapım",
+    text: "biz de ünlüydük bechdel testini geçiyor diye çok konuşuldu. bechdel testi çok düşük bir beklenti. iki kadın karakterin birbirleriyle erkek dışında bir şey konuşması yeterli. bu 2026'da hâlâ haber oluyorsa sorun dizide değil.",
+  },
+  {
+    id: 17,
+    nick: "zemheri nedir bilen",
+    text: "kirpik şarkısında zemheri kelimesini kullanmış. zemheri ocak ayının en soğuk günleri demek. bunu kullanan şarkı sözü yazarı ya çok iyi bir kelime bilgisi var ya da sözlükte takılı kalmış. ikisi de mümkün.",
+  },
+  {
+    id: 18,
+    nick: "timsah olan",
+    text: "bi şekilde şarkısında 'timsah gibi bi şey bu elin oğlu' demiş. bir aşk şarkısında timsah metaforu. bunu yazan adam o an çok kafası karışık bir yerdeydi ya da çok açıktı. ikisinden biri.",
+  },
+  {
+    id: 19,
+    nick: "dizi adını sorgulayan",
+    text: "biz de ünlüydük dizi adı. geçmiş zamanda. yani zaten bitti. bu adı koyan kişi biraz fazla pesimist ya da çok gerçekçi. ya da ikisi aynı şey bu durumda.",
+  },
+  {
+    id: 20,
+    nick: "aya gidelim turisti",
+    text: "aya gidelim şarkısında 'çölde gezelim gölde yüzelim kavga edelim' demiş. aya gitmek için çıkmışlar ama çöle, göle ve kavgaya sapıtmışlar. bu bir rota planlaması değil, bu bir felaket.",
+  },
+  {
+    id: 21,
+    nick: "krant bio'sunu okuyan",
+    text: "krant the band'in bio'su 'hâlâ yapılıyor' diyor. bu çok alçakgönüllü görünüyor ama aynı zamanda sorumluluğu da sıfırlıyor. 'henüz bitmedi' demek 'eleştirme daha hazır değil' demek.",
+  },
+  {
+    id: 22,
+    nick: "acoustic disco dinleyicisi",
+    text: "acoustic disco diye bir şey çıkarmış. yani normal şarkılarını akustiğe çevirmiş ve bunu ayrı bir proje gibi sunmuş. bu yeni içerik değil, bu tembelliğe isim koymak.",
+  },
+  {
+    id: 23,
+    nick: "şarkı adlarını listeleyen",
+    text: "şarkılarının adları: çözemedim, ne fark eder, bi şekilde, yap boz. bunları arka arkaya okuyunca bir listeyi değil, bir insanın pazar günü sabahını okuyorsunuz gibi hissettiriyor.",
+  },
+  {
+    id: 24,
+    nick: "sosyal medya fenomeni olmayan",
+    text: "galatasaray maçlarında çok aktif oluyor sosyal medyada. ama o enerjiyi şarkılarına hiç yansıtmıyor. galatasaray şarkısı yazmış olması gerekirdi. yazmamış. bu bir kayıp.",
+  },
+  {
+    id: 25,
+    nick: "kuyu adını düşünen",
+    text: "kuyu adlı bir filmde oynamış. kuyu. en karanlık, en kapalı, en çıkışsız yer. bu role hazırlanmak için ne yaptı bilmiyorum ama adı bile bunaltıcı olan bir yere gönüllü girilmiyor.",
+  },
+  {
+    id: 26,
+    nick: "son disko'yu arayan",
+    text: "son disko diye bir albümü var. 'son' kelimesi hem bitişi hem de en son olanı anlatır. yani bu son mu yoksa en büyük mü belli değil. bu bir pazarlama hatası ya da çok akıllıca bir muğlaklık.",
+  },
+  {
+    id: 27,
+    nick: "3:47'de uyanan",
+    text: "3:47 şarkısını gece yarısı ağlarken yazdığını söylüyor. ama saat 3:47 değil, 14:47'ymiş ve cips yiyormuş. bu itirafı önceden yapmak yerine sonradan söylüyor. yani romantik hikayeyi önce kurmuş, sonra gerçeği söylemiş. bu bir strateji.",
+  },
+  {
+    id: 28,
+    nick: "her yere geç kalan",
+    text: "hem müzisyen hem oyuncu olmaya çalışıyor. bu iki şeyi aynı anda yapanlar ya dehadır ya da ikisini de yarım yapıyordur. hangisi olduğunu anlamak için biraz daha beklememiz gerekiyor.",
+  },
+  {
+    id: 29,
+    nick: "sözleri ezberleyen fan",
+    text: "dönme dolap şarkısında 'sallaa nıyo' diye hece hece kırıyor kelimeyi. bu ya çok özenli bir ritim çalışması ya da zaman doldurmak için yapılmış bir şey. ikisi de aynı sonuca çıkıyor ama biri daha iyi görünüyor.",
+  },
+  {
+    id: 30,
+    nick: "imkânsızı seven ama bulamayan",
+    text: "aya gidelim'de 'imkânsızın peşine düşen arsızım' demiş. arsızlığı kabul etmek cesaret ister. ama bu cesaret ona çok kolay gelmiş, şarkıda söylemek hesap sormak değil.",
+  },
+  {
+    id: 31,
+    nick: "yan roldeki biri",
+    text: "her şey çok güzel olacak 2'de yan rol oynamış. ikinci film. yan rol. bu cümleyi kurarken bile bir şeyler eksiliyor.",
+  },
+  {
+    id: 32,
+    nick: "sessiz sahneleri izleyen",
+    text: "'bazen susardık da çok iyi kotardık' demiş ne fark eder şarkısında. bu satır çok güçlü ama hemen ardından şarkı devam ediyor. susmanın ne kadar iyi olduğunu anlatan şarkı susmaya devam ediyor.",
+  },
+  {
+    id: 33,
+    nick: "bucak bilen coğrafyacı",
+    text: "aklımın bucaklarında demek için önce aklının kaç bucak olduğunu bilmek lazım. büyük ihtimalle bilmiyor. bu metafor çalışıyor çünkü kimse soruşturmuyor.",
+  },
+  {
+    id: 34,
+    nick: "yağmur seven motosikletçi",
+    text: "motosikletle yağmurda yolculuk yapıyor ve bunu romantik bir şey gibi sunuyor. yağmurda motosiklet kullanmak romantik değil, tehlikeli. ama tehlikeliyi romantik görmek de ayrı bir kişilik özelliği.",
+  },
+  {
+    id: 35,
+    nick: "eski şarkıları seven biri",
+    text: "krant the band 2026'da kurulmuş ve aynı yıl üç albüm çıkarmış. bu ya çok verimli bir yaratıcılık ya da hazır bekleyen bir sürü malzeme vardı demek. ikisi de iyi bir hikaye ama farklı hikayeler.",
+  },
+];
