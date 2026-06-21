@@ -100,571 +100,571 @@ export const QUESTIONS: Question[] = [
   // ── DÖNME DOLAP ────────────────────────────────────────────────
   {
     id: 1, category: "Müzik", emoji: "🎡",
-    author: "bir türlü uykuya geçemeyen",
+    author: "trenin son vagonunda giden",
     text: "'Bi o yana bi bu yana' diyorsun ama hiç durmuyorsun — bu şarkıyı dinleyince o döngünün hâlâ devam ettiğini hissettiriyor. Gerçekten bitti mi o dönme dolap?",
   },
   {
     id: 2, category: "Müzik", emoji: "⛓️",
-    author: "cevabı olmayan soruları seven",
+    author: "sinyal bekleyen",
     text: "'Esirim sanki, sebebim baki' — neyin esirisin? Şarkının hiçbir yerinde cevap vermedin, ve bu biraz da kasıtlı değil mi?",
   },
   {
     id: 3, category: "Komik", emoji: "🍺",
-    author: "içecek kadar kalmış",
+    author: "ekmeği her zaman fazla yiyen",
     text: "'Bitiyor mu biram, bitecek gibi' diye açılan bir şarkı var. O an gerçekten bira içiyor muydun, yoksa bu biraz fazla sinematik bir açılış mı oldu?",
   },
   {
     id: 4, category: "Müzik", emoji: "💿",
-    author: "müziği ne yapacağını bilmeyen biri",
+    author: "sinemada hep ön sıraya geçen",
     text: "'Çatlak bi plaktan gelen sesler gibi / bu iş böyledir' — bu kabulleniş çok ağır. Bunu yazan biri o an neyi kabulleniyordu?",
   },
   {
     id: 5, category: "Müzik", emoji: "🚬",
-    author: "mekânları hatırlayan",
+    author: "şemsiyesini evde unutan",
     text: "'Kirli bi tavan, az hava çok duman' — bunu okuyunca somut bir yer hayal ediyorum. Gerçek bir mekân mıydı bu, yoksa zihinsel bir mekân mı?",
   },
   {
     id: 6, category: "Komik", emoji: "🤡",
-    author: "soru sormadan önce düşünen",
+    author: "not defterini doldurup yeni alan",
     text: "'Sersefilin biri' diyorsun. Bunu bir aynaya bakarak mı yazdın, yoksa birine mi söyledin ve bu şarkı o kişinin cevabı mı?",
   },
 
   // ── KİRPİK ─────────────────────────────────────────────────────
   {
     id: 7, category: "Aşk & İlişki", emoji: "💘",
-    author: "yanlış kişiye doğru zamanda sevdalanan",
+    author: "telefonu şarj etmeyi unutan",
     text: "'Ruhuma daldın bu nasıl bi soygun?' diyorsun — bu soygundan şikayetçi misin gerçekten, yoksa içten içe hoşuna mı gidiyor?",
   },
   {
     id: 8, category: "Müzik", emoji: "🎵",
-    author: "plansızlığı seven biri",
+    author: "yanlış durakta inen",
     text: "'Bu işin cahili benim yalansız' — planın olmayışını neden bu kadar rahat söyleyebiliyorsun? Bu bir güç mü yoksa bir savunma mekanizması mı?",
   },
   {
     id: 9, category: "Aşk & İlişki", emoji: "⏳",
-    author: "beklemeyi hiç öğrenememiş",
+    author: "çayını şekersiz içen",
     text: "'Beklemenin ne faydası var? söyle bileyim' — bu soruya cevap geldi mi? Faydası var mıydı?",
   },
   {
     id: 10, category: "Aşk & İlişki", emoji: "❄️",
-    author: "zemheri bilir",
+    author: "her şeyi mavi kalemle yazan",
     text: "'Gittin gideli bu zemheri' — zemheri kelimesini seçmek güçlü bir karardı, soğuğun en ağır hali bu. O gidiş gerçekten o kadar ağır mıydı?",
   },
   {
     id: 11, category: "Müzik", emoji: "🎶",
-    author: "sesi dinleyen değil duyan",
+    author: "kapı zilini duymayan",
     text: "Kirpik'teki dişi backing vocals şarkıyı başka bir boyuta taşıyor — onsuz hayal edemiyorum artık. O ses kimin ve bu kararı nasıl aldınız?",
   },
 
   // ── Bİ ŞEKİLDE ─────────────────────────────────────────────────
   {
     id: 12, category: "Müzik", emoji: "🍂",
-    author: "mevsimleri hisseden biri",
+    author: "kahvesini soğutup içen",
     text: "'Bi zamanda, bi mekanda, sonbaharda / belki şubatta' — neden hep bu en kasvetli aylar? Hiç bir şarkında yaz ya da ilkbahar var mı?",
   },
   {
     id: 13, category: "Komik", emoji: "🐊",
-    author: "timsah meraklısı",
+    author: "arka koltuğa oturan",
     text: "'Gel bana yoksa kaparlar bak timsah gibi bi şey bu elin oğlu' — bu satır gerçekten bir aşk şarkısının içinde. Bunu yazan adam o an neyin kafasındaydı?",
   },
   {
     id: 14, category: "Hayat", emoji: "🔮",
-    author: "bi şekilde devam eden",
+    author: "pencere kenarında uyuyan",
     text: "'Ha elimde ha ilerde bi şekilde' — bu benim için çok şey ifade eden bir satır. Gerçekten oldu mu o bi şekilde? Şarkı kehanet mi çıktı?",
   },
   {
     id: 15, category: "Müzik", emoji: "🎹",
-    author: "enstrümanları takip eden dinleyici",
+    author: "son dilimi yiyen",
     text: "Bi Şekilde'de elektro bağlama ve gitar birbirine cevap veriyor — bu fikir çok organik hissettiriyor. Kim buldu ve ilk duyduğunda ne düşündün?",
   },
 
   // ── ÇÖZEMEDİM ──────────────────────────────────────────────────
   {
     id: 16, category: "Hayat", emoji: "🧩",
-    author: "aptalı da korkağı da seven",
+    author: "yağmurda şemsiye açmayan",
     text: "'Aptal mıyım neyim çözemedim ah!' — şarkında kendi kendine iki seçenek sunuyorsun. Ama üçüncü bir ihtimal var mı, o ihtimali hiç düşündün mü?",
   },
   {
     id: 17, category: "Aşk & İlişki", emoji: "📄",
-    author: "sayfaları saklayanlar kulübü",
+    author: "en uzun yoldan giden",
     text: "'Koparmıyorum sakladım o sayfaları / gelirsin diye / e gelmedin niye?' — bu satır içime oturdu. O sayfalar fiziksel mi, dijital mi? Hâlâ duruyor mu bir yerde?",
   },
   {
     id: 18, category: "Aşk & İlişki", emoji: "🏃",
-    author: "kaçarken düşen biri",
+    author: "radyoyu kapatmayan",
     text: "'Kaçtım ve kaçırdım seni' — ikisi aynı anda gerçekleşmiş, bu çok acı. Kaçarken kaçırdığını o an mı fark ettin, yoksa çok sonra mı?",
   },
   {
     id: 19, category: "Hayat", emoji: "🚶",
-    author: "şehri hisseden yürüyüşçü",
+    author: "uyumadan önce kitap okuyan",
     text: "'Şu kaldırımlar, o sokaklar, bu yasaklar' — bu şarkıda şehir çok somut. Hangi şehrin sokaklarıydı bu?",
   },
 
   // ── YAP BOZ ────────────────────────────────────────────────────
   {
     id: 20, category: "Aşk & İlişki", emoji: "🧩",
-    author: "kalpleri parçalanan kooperatifi",
+    author: "asansörü bekleyemeyen",
     text: "'Yap-boz gibi kalbim senin elinde' — bu kişi şarkıyı duydu mu? Duymuşsa tepkisi ne oldu? Meraktan soruyorum çünkü bu çok açık bir şey.",
   },
   {
     id: 21, category: "Müzik", emoji: "🎵",
-    author: "şarkıları sayıp döken",
+    author: "haritasız yolculuk yapan",
     text: "'Şarkılarımı hep sana yazıp uykularımı hep sana bölüp' — bu şarkıyla birlikte o kişi için kaç tane oldu? Bir noktada bitmesi gerekmez mi?",
   },
   {
     id: 22, category: "Aşk & İlişki", emoji: "🌧️",
-    author: "koşmaktan yorulan",
+    author: "şarkıyı yanlış bilen",
     text: "'Koştukça koştum sana / ardından yorgun / biraz da kırgın' — o yorgunluğun içinde duraksadığın bir an oldu mu? Durmayı düşündün mü?",
   },
   {
     id: 23, category: "Aşk & İlişki", emoji: "💔",
-    author: "dostluğun bedelini ödeyen",
+    author: "menüden en son seçen",
     text: "'Dostlara küstüm, çok kavga ettim' — bir ilişki için bu bedeli ödemek pişmanlık mı yaratıyor, yoksa 'gerekti' mi hissediyorsun?",
   },
 
   // ── NE FARK EDER? ───────────────────────────────────────────────
   {
     id: 24, category: "Müzik", emoji: "🎸",
-    author: "atmosferi hisseden dinleyici",
+    author: "restoranda hep aynı yere oturan",
     text: "Ne Fark Eder heavy delay ve uzun sustain ile açılıyor — o gece atmosferi o kadar sarıyor ki seyirciye de geçiyor. Bu kasıtlı mı kuruldu?",
   },
   {
     id: 25, category: "Aşk & İlişki", emoji: "🤐",
-    author: "sessizliğin ne anlama geldiğini bilen",
+    author: "sinemanın kapanışında çıkan",
     text: "'Bazen susardık da çok iyi kotardık' — bu benim için en güçlü satırlardan biri. İki insan susarak ne kotarıyor olabilir?",
   },
   {
     id: 26, category: "Hayat", emoji: "🔑",
-    author: "kapıları kapatan",
+    author: "çöpü unutup geri dönen",
     text: "'Güzel günler mazide saklı ve kitli / ne ani!' — 'ne ani' kısmı nefes kesiyor. O kapıyı kim kitledi, sen mi yoksa zaman mı?",
   },
   {
     id: 27, category: "Aşk & İlişki", emoji: "❓",
-    author: "tutarlılığa inanan biri",
+    author: "sinyalini geç veren",
     text: "'Tutarlı tutarsız ne fark eder artık?' — bu soruyu sormak zaten bir cevap. Ama gerçekten fark etmiyor mu sence?",
   },
   {
     id: 28, category: "Müzik", emoji: "🌍",
-    author: "milyarcayı düşünen",
+    author: "hesabı başkası ödeyen",
     text: "'Milyarcası orda biz hep baş başa kaldık' — bu satırda milyarcası kim ya da neydi? Dünya mı, insanlar mı, fırsatlar mı?",
   },
 
   // ── AYA GİDELİM ────────────────────────────────────────────────
   {
     id: 29, category: "Müzik", emoji: "🌙",
-    author: "planın içine kavga koyan",
+    author: "konuşmayı yarıda bırakan",
     text: "'Aya gidelim, bi ara kavga edelim, sonunu bilmeyelim' — kavgayı plana koyuyorsun. Bu dürüstlük mü romantizm mi, yoksa ikisi aynı şey mi?",
   },
   {
     id: 30, category: "Aşk & İlişki", emoji: "⚗️",
-    author: "kimyayı anlamaya çalışan",
+    author: "sorunun cevabını bilen",
     text: "'Kimyamızı bozan aşk apansızın' — kimyayı sen mi bozdun, o mu bozdu, yoksa aşkın kendisi mi? Karar verdiremiyor bu satır.",
   },
   {
     id: 31, category: "Müzik", emoji: "🪘",
-    author: "bağlamayı seven yabancı",
+    author: "otobüste yer bulan",
     text: "Modern kanun ve 80'ler retro synth yan yana duruyor Aya Gidelim'de — bu kombinasyonu duyunca 'nasıl aklına geldi bunu' dedim. Kim buldu?",
   },
   {
     id: 32, category: "Aşk & İlişki", emoji: "🚀",
-    author: "imkânsızların hayranı",
+    author: "tartışmada haklı çıkmayı seven",
     text: "'İmkansızın peşine düşen arsızım' — bu kariyer mi, aşk mı, yoksa genel bir kişilik özelliği mi? Kaç kez düştün imkânsızın peşine?",
   },
   {
     id: 33, category: "Aşk & İlişki", emoji: "🤝",
-    author: "birlikte düşen ikisi",
+    author: "yabancı şehirde kaybolmayan",
     text: "'Bile bile biz düşebiliriz / kime neymiş kalkarız ikimiz' — bu kısım bende çok umut uyandırıyor. Kalktınız mı?",
   },
   {
     id: 34, category: "Komik", emoji: "🏊",
-    author: "göl mü çöl mü diye soran",
+    author: "bagajsız seyahat eden",
     text: "'Bi ara gölde yüzelim sonra kavga edelim' — iki versiyonda 'çöl' ve 'göl' var. Hangisi orijinal? Bu önemli.",
   },
 
   // ── AKLIMIN BUCAKLARINDA ────────────────────────────────────────
   {
     id: 35, category: "Aşk & İlişki", emoji: "☕",
-    author: "sabah kahvesini düşünen",
+    author: "köprüden yavaş geçen",
     text: "'Sabah içtiğim kahve sohbetimsin' — bu benim için çok büyük bir şey. O kişiyle gerçekten sabah kahvesi içildi mi hiç?",
   },
   {
     id: 36, category: "Müzik", emoji: "🏠",
-    author: "evsizlikten anlayan",
+    author: "lokantada iki porsiyon isteyen",
     text: "'Senin olduğun yerler hayallerimdir / evimdir' — bir mekân gerçekten eve dönüştü mü birisinin varlığıyla? Bu metafor mu yoksa gerçek bir his mi?",
   },
   {
     id: 37, category: "Hayat", emoji: "🎯",
-    author: "sahiplenmeyi öğrenen",
+    author: "finali atlayan",
     text: "'Bu benim diyorum' — spoken word olarak söylemek çok güçlü. O kararı ne zaman aldın ve geri aldın mı?",
   },
   {
     id: 38, category: "Müzik", emoji: "🔥",
-    author: "felaket görmüş biri",
+    author: "kartpostal gönderen",
     text: "'Ki yaşadım felaketinle' — birinin yanında felaketi yaşamak ile yalnız yaşamak arasında gerçekten fark var mı sence?",
   },
   {
     id: 39, category: "Komik", emoji: "🗺️",
-    author: "aklın haritasını çizen",
+    author: "fotoğraf yerine bakmayı seçen",
     text: "'Aklımın bucaklarında' — kaç tane bucak var bu aklında ve birine saklamak için mi kullanıyorsun onu?",
   },
 
   // ── GENEL MÜZİK ────────────────────────────────────────────────
   {
     id: 40, category: "Müzik", emoji: "🔊",
-    author: "albüm sırasına önem veren",
+    author: "şehrin kenarında yaşayan",
     text: "Son Disko, Aya Gidelim, Aklımın Bucakları — aynı yıl üç albüm çıkardın. Bunlar gerçekten farklı dönemler mi yoksa aynı sel birden mi taştı?",
   },
   {
     id: 41, category: "Müzik", emoji: "🎙️",
-    author: "biyoları okuyan biri",
+    author: "eski fotoğraflara bakan",
     text: "Krant'ın bio'su 'hâlâ yapılıyor' diyor. Bu alçakgönüllülük mü, gerçek bir his mi, yoksa 'eleştirme henüz bitmedi' şeklinde bir savunma mı?",
   },
   {
     id: 42, category: "Müzik", emoji: "🌊",
-    author: "sonu merak eden",
+    author: "ekranda uyuya kalan",
     text: "Şarkıların çoğu belirsizlikle bitiyor — çözemedim, ne fark eder, bi şekilde. Kapanış yazmak neden bu kadar zor? Yoksa kasıtlı mı?",
   },
   {
     id: 43, category: "Hayat", emoji: "🪞",
-    author: "bütün albümleri dinleyen",
+    author: "notları bitmemiş bırakan",
     text: "Bu sekiz şarkıyı birden dinleyince hangi birinden kaçmak istiyorsun? Yani hangi soru rahatsız ediyor en çok?",
   },
 
   // ── OYUNCULUK — BİZ DE ÜNLÜYDÜK! ──────────────────────────────
   {
     id: 44, category: "Oyunculuk", emoji: "📺",
-    author: "ilk sezonu tek nefeste izleyen",
+    author: "söz verip unutan",
     text: "Biz de Ünlüydük!'ün sezon finalinde izleyici Tarık'ın — ve diğer karakterlerin — kadın olduğunu öğreniyor. Sen bunu çekerken biliyordun. Bu iki gerçekliği aynı anda nasıl taşıdın?",
   },
   {
     id: 45, category: "Oyunculuk", emoji: "♀️",
-    author: "bechdel testini asan türk izleyicisi",
+    author: "geç özür dileyen",
     text: "Biz de Ünlüydük! Bechdel testini doğal yoldan geçen ender Türk yapımlarından. Bu bir manifesto muydu, yoksa hikaye öyle akıp gitti mi?",
   },
   {
     id: 46, category: "Oyunculuk", emoji: "🎭",
-    author: "sektörü içeriden gören biri",
+    author: "hediyeyi son güne bırakan",
     text: "Dizi özellikle sektördeki kadınlar için çok şey ifade etti. Bunu sette hissettiniz mi, yoksa yayına çıkınca mı anladınız ne yaptığınızı?",
   },
   {
     id: 47, category: "Oyunculuk", emoji: "📺",
-    author: "platform aboneliğini o dizi için alan",
+    author: "randevuyu şaşıran",
     text: "Tarık 90'larda ünlüydü, şimdi AVM'lerde kimsenin ilgilenmediği açılışlar yapıyor. Bu karakter sende bir şeye dokundu mu, yoksa tamamen uzak mıydı?",
   },
   {
     id: 48, category: "Oyunculuk", emoji: "🎬",
-    author: "nuri'yi seven seyirci",
+    author: "sesi kapatmayı unutan",
     text: "Nuri peltek konuşan, aşırı pozitif, saf bir karakter — ama aslında kadın. Bu kontrast kasıtlıydı, öyle değil mi? Hangi stereotipi kırıyordunuz?",
   },
   {
     id: 49, category: "Oyunculuk", emoji: "🌟",
-    author: "finalden sonra geri sarıp izleyen",
+    author: "doğum gününü atlayan",
     text: "Twist ortaya çıkınca izleyici ilk sezonu yeniden izleyip farklı şeyler görüyor. Bunu bilerek mi çektiniz bazı sahneleri?",
   },
   {
     id: 50, category: "Oyunculuk", emoji: "📺",
-    author: "rana'yı anlayan",
+    author: "toplantıyı unutup gelen",
     text: "Rana oyuncu olmak ister ama sekreter olmuş. Yine de her ortamda ilgi odağı olmak ister. Bu karakter sana tanıdık geldi mi, ya da tanıdığın biri mi var böyle?",
   },
   {
     id: 51, category: "Komik", emoji: "😂",
-    author: "sami'den koşarak kaçan",
+    author: "parçayı yarıda bırakan",
     text: "Bakkal Sami pasif agresif biri — bu karakter sahnelerde ne kadar büyüdü? Seni en çok o mu yordu yoksa Kudret'in anlamsız sohbetleri mi?",
   },
   {
     id: 52, category: "Oyunculuk", emoji: "🎭",
-    author: "deneysel işleri takip eden",
+    author: "sezon finalinde uyuyan",
     text: "Biz de Ünlüydük!'ün deneysel yanı hem formatta hem içerikte belli. Bu riski almak nasıl bir karardı? Tereddüt etti mi ekip?",
   },
 
   // ── OYUNCULUK — HER ŞEY ÇOK GÜZEL OLACAK 2 + KUYU ────────────
   {
     id: 53, category: "Oyunculuk", emoji: "😂",
-    author: "cem yılmaz'ı seven biri",
+    author: "kanalı sürekli değiştiren",
     text: "Her Şey Çok Güzel Olacak 2 setinde Cem Yılmaz varken kamera açık olan ve olmayan hallerin ikisi de var. Hangisinde daha zor konsantre oldun?",
   },
   {
     id: 54, category: "Oyunculuk", emoji: "🕳️",
-    author: "kuyu'yu tek başına izleyen",
+    author: "filmi ortasından başlayan",
     text: "Haluk Bilginer ile Kuyu'da sahne yapıyorsun. O sahneye hazırlanırken ne düşündün, ne hissettin? Gerçekten hazır mıydın?",
   },
   {
     id: 55, category: "Oyunculuk", emoji: "🌑",
-    author: "dram ve komedi arasında gidip gelen",
+    author: "yorumları okuyan",
     text: "Kuyu'nun draması ile Cem Yılmaz'ın komedisi arasında geçiş yaptın. Hangisi daha zor? İkisi de kendine göre mü, yoksa biri gerçekten daha ağır mı?",
   },
 
   // ── FELSEFE & HAYAT ─────────────────────────────────────────────
   {
     id: 56, category: "Hayat", emoji: "💭",
-    author: "felsefi ama üşengeç",
+    author: "bildirimi kapatan",
     text: "'Bi şekilde olur' mu gerçekten? Bu bir iyimserlik cümlesi mi yoksa tembellerin kendini rahatlatma yöntemi mi? İkisi aynı şey mi sence?",
   },
   {
     id: 57, category: "Hayat", emoji: "🌙",
-    author: "mevsimleri sayıp döken",
+    author: "her yere geç kalan",
     text: "Şarkılarında sonbahar, şubat, zemheri var. Hiç yaz yoktur, ilkbahar yoktur. Bu hayatındaki bir şeyi mi yansıtıyor?",
   },
   {
     id: 58, category: "Hayat", emoji: "🔇",
-    author: "konuşmak yerine yazan",
+    author: "son treni kaçıran",
     text: "Müzik yapmak seni çözüyor mu yoksa çözmediğin yere daha derinden mi sokuyor? İkisi de aynı anda olabilir mi?",
   },
   {
     id: 59, category: "Hayat", emoji: "🧠",
-    author: "anlamı arayan sıradan biri",
+    author: "biletini kaybeden",
     text: "'Ne fark eder artık' — bu özgürlük mü teslim mi? Bence ikisi de aynı kapıya çıkıyor ama sen ne düşünüyorsun?",
   },
   {
     id: 60, category: "Hayat", emoji: "🌅",
-    author: "konuşmak yerine dinleyen",
+    author: "uçuşu karıştıran",
     text: "Konuşmak yerine şarkı yazıyorsun. Bu bir seçim mi yoksa bir zorunluluk mu? Bir şeyi direkt söyleyemeyen biri misin?",
   },
   {
     id: 61, category: "Hayat", emoji: "🪐",
-    author: "varoluş sorunları olan sıradan biri",
+    author: "kapıya en son yetişen",
     text: "'Hâlâ yapılıyorum' deseydin kendin hakkında — hangi parçan eksik? Bunun cevabını gerçekten biliyor musun?",
   },
 
   // ── AŞK & İLİŞKİ (genel) ───────────────────────────────────────
   {
     id: 62, category: "Aşk & İlişki", emoji: "📝",
-    author: "hesap soran",
+    author: "bavulunu en geç alan",
     text: "Bu kadar şarkı, bu kadar kişi — tek kişi için mi bunlar, yoksa farklı insanlar mı? Dürüst ol, çünkü sözler o kadar spesifik ki hepsinin aynı kişi için olduğuna inanmak zor.",
   },
   {
     id: 63, category: "Aşk & İlişki", emoji: "💬",
-    author: "kelimeleri tartan biri",
+    author: "tur rehberinden kopan",
     text: "Şarkılarında hiç doğrudan 'seni seviyorum' demiyorsun. Bu bir edebî karar mı, yoksa o kelimeyi söylemekte gerçekten zorlanıyor musun?",
   },
   {
     id: 64, category: "Aşk & İlişki", emoji: "🔥",
-    author: "korkusuzluğun ne kadar sürdüğünü bilen",
+    author: "otel odasını yanlış anlayan",
     text: "'Korkusuz vaziyetim ve de plansız' — bu his ne kadar sürdü? Çünkü şarkıların geri kalanında o korkusuzluktan eser yok.",
   },
   {
     id: 65, category: "Aşk & İlişki", emoji: "📱",
-    author: "zamanlama uzmanı olmayan",
+    author: "dövizini çarptıran",
     text: "Bir ilişki bitmeden şarkı mı yazıyorsun, bittikten mi? Bu zamanlamayı sen seçiyor musun yoksa şarkı kendi kendine mi geliyor?",
   },
   {
     id: 66, category: "Aşk & İlişki", emoji: "💔",
-    author: "pişmanlığın boyutunu soran",
+    author: "dönüş biletini almayan",
     text: "Geçmişte pişman olduğun tek bir şey söyle. 'Her şey' değil, gerçekten bir şey.",
   },
   {
     id: 67, category: "Aşk & İlişki", emoji: "🤍",
-    author: "müziği anlamayan âşık",
+    author: "treni son saniye yakalayan",
     text: "Seni seven biri müziğini hiç anlamasa bu sorun olur mu? Ya da tam tersine, sadece şarkıların için seven biri?",
   },
 
   // ── MOTOSİKLET ──────────────────────────────────────────────────
   {
     id: 68, category: "Motosiklet", emoji: "🏍️",
-    author: "yolda kaybolmayı seçen",
+    author: "uyuyakalan yolcu",
     text: "Uzun yola çıkmadan önce hangi şarkıyı açıyorsun? Krant'tan mı, başka bir şeyden mi — yoksa tamamen sessiz mi gidiyorsun?",
   },
   {
     id: 69, category: "Motosiklet", emoji: "🛣️",
-    author: "şehirden kaçan fakat geri dönen",
+    author: "istasyonda bırakılan",
     text: "Motosikletle giderken şarkı fikirleri geliyor mu, yoksa o an sadece yol var mı? Müzikten kaçmak için mi biniyorsun?",
   },
   {
     id: 70, category: "Motosiklet", emoji: "🌄",
-    author: "mesafeyi ölçen",
+    author: "vagonun en önünde oturan",
     text: "En uzun gittiğin rota nereye kadardı? Ve tek başına mıydın? Birini bırakıp gittiğin oldu mu?",
   },
   {
     id: 71, category: "Motosiklet", emoji: "🌧️",
-    author: "yağmuru seven ama ıslanmaktan nefret eden",
+    author: "geceleri yürüyüşe çıkan",
     text: "Yağmurda motosikletle gitmek — macera mı, hata mı? Karar verdin mi henüz?",
   },
   {
     id: 72, category: "Motosiklet", emoji: "💨",
-    author: "ikisi arasında sıkışan",
+    author: "sabah gazete okuyan",
     text: "Motosiklet mi müzik mi — gerçekten birini bırakmak zorunda kalsaydın? Cevabı düşünmeden ver.",
   },
   {
     id: 73, category: "Motosiklet", emoji: "🏍️",
-    author: "yolda ne düşünüldüğünü merak eden",
+    author: "kaldırımda yavaş yürüyen",
     text: "Yolda en çok ne düşünüyorsun? 'Hiçbir şey' geçerli değil, öyle bir şey yok.",
   },
   {
     id: 74, category: "Komik", emoji: "😅",
-    author: "hataları seven dinleyici",
+    author: "taksi beklerken yağmura yakalanan",
     text: "Motosikletle gittiğin en kötü rotayı anlat. Dönerken ne düşündün — ve bir daha yaptın mı aynı hatayı?",
   },
 
   // ── GALATASARAY ──────────────────────────────────────────────────
   {
     id: 75, category: "Galatasaray", emoji: "🔴🟡",
-    author: "kalpten galatasaraylı",
+    author: "şemsiyesiz çıkan",
     text: "Galatasaray kaybettiği bir akşam stüdyodaydın — o gece ne çıktı ortaya? Yenilginin şarkıya etkisi var mı?",
   },
   {
     id: 76, category: "Galatasaray", emoji: "⚽",
-    author: "şampiyonlukta sahada olan",
+    author: "kapıyı arkada açık bırakan",
     text: "Şampiyonluk gecesi için hangi Krant şarkısı o anı en iyi anlatır? Seç, açıkla.",
   },
   {
     id: 77, category: "Galatasaray", emoji: "😤",
-    author: "hakem kararlarından bıkan",
+    author: "ışığı söndürmeyen",
     text: "Hakem kararından sonra atmak isteyip sildiğin tweet ne yazıyordu? Anlatabilirsin artık.",
   },
   {
     id: 78, category: "Galatasaray", emoji: "😭",
-    author: "maçtan sonra ağlayan taraftar",
+    author: "çıkarken geri dönen",
     text: "Galatasaray yüzünden ağladın mı? Cevap kesinlikle evet. Ama ne zaman, hangi maç?",
   },
 
   // ── MAGAZİN ──────────────────────────────────────────────────────
   {
     id: 79, category: "Magazin", emoji: "🎭",
-    author: "sektörü dışarıdan gözlemleyen",
+    author: "mektup yazıp gönderemeyen",
     text: "Türkiye'de şu an müzikte seni gerçekten etkileyen kim? Klişe bir isim verme, gerçekten dinlediğin biri.",
   },
   {
     id: 80, category: "Magazin", emoji: "🤝",
-    author: "kolaborasyonu seven",
+    author: "gece yarısı yemek sipariş eden",
     text: "Hangi Türk sanatçıyla çalışmak isterdin? 'Herkesle' değil, bir isim. Ve o kişiyle ne yaparsınız?",
   },
   {
     id: 81, category: "Magazin", emoji: "🎬",
-    author: "yönetmen filmografisi bilen",
+    author: "alarmı kapatıp uyuyan",
     text: "Hangi Türk yönetmenin filminde yer almak isterdin? Ve o filmde kim olmak isterdin?",
   },
   {
     id: 82, category: "Magazin", emoji: "🌍",
-    author: "hollywood hayalcisi",
+    author: "buzdolabını açıp kapatan",
     text: "Hollywood'dan ciddi bir teklif gelse kabul eder miydin? Koşulun ne olurdu?",
   },
   {
     id: 83, category: "Magazin", emoji: "🎤",
-    author: "tarkan dinleyicisi",
+    author: "anahtarını her yere unutan",
     text: "Tarkan ya da Sezen Aksu'dan birini cover yapacak olsaydın hangi şarkı olurdu ve neden?",
   },
   {
     id: 84, category: "Magazin", emoji: "🎸",
-    author: "yabancı sahneleri hayal eden",
+    author: "şifreyi yanlış giren",
     text: "Hangi yabancı sanatçıyla sahne paylaşmak isterdin? Ve o sahnede ne olurdu?",
   },
   {
     id: 85, category: "Magazin", emoji: "💼",
-    author: "teklif değerlendiren",
+    author: "köşe masasına oturan",
     text: "Cem Yılmaz 'yeni filmde başrol' dese ne yaparsın? Kabul etmek için ne gerekir?",
   },
   {
     id: 86, category: "Magazin", emoji: "🌟",
-    author: "ustadan öğrenen",
+    author: "son otobüsü kaçıran",
     text: "Haluk Bilginer senden bir genç oyuncuya tavsiye istemeni istese ne söylerdin?",
   },
 
   // ── ŞÖHRET ──────────────────────────────────────────────────────
   {
     id: 87, category: "Şöhret", emoji: "👂",
-    author: "ilk kez dinleyip şaşıran",
+    author: "fişi çekmeden uyuyan",
     text: "Şarkını yabancı biri ilk kez duyup 'bu gerçekten güzelmiş' dediğinde ne hissediyorsun? Mutluluk mu, rahatsızlık mı, ikisi aynı anda mı?",
   },
   {
     id: 88, category: "Şöhret", emoji: "📱",
-    author: "kafede yabancı şarkılar dinleyen",
+    author: "kitabı yarıda bırakan",
     text: "Şarkını bir kafede rastgele duysaydın — açıklar mıydın kim olduğunu? Yoksa sessiz mi otururdun?",
   },
   {
     id: 89, category: "Şöhret", emoji: "✨",
-    author: "şarkıyı kendine mal eden",
+    author: "soruyu en son soran",
     text: "Şarkılarını dinleyip 'bu benim hakkımda' diyen biri çıksa ve tamamen yanılıyor olsa — düzeltir misin, yoksa bırakır mısın?",
   },
   {
     id: 90, category: "Şöhret", emoji: "🚪",
-    author: "kapıları sayan",
+    author: "toplantıda en az konuşan",
     text: "Ünlü olmak sana ne kapısını açtı, ne kapısını kapattı? Hangi kapı kaybıydı?",
   },
 
   // ── SÖZLÜK SORUSU — Ekşi Sözlük nickleri + yorum ──────────────
   {
     id: 91, category: "Sözlük Sorusu", emoji: "📖",
-    author: "gece yarısı felsefesi",
+    author: "asansör butonuna iki kez basan",
     text: "'Bi şekilde' diyorsun ve bu benim için hem en rahatlatıcı hem de en korkutucu cümle. O bi şekil geldiğinde tanıyor musun onu?",
   },
   {
     id: 92, category: "Sözlük Sorusu", emoji: "📖",
-    author: "hayatı yanlış anlayan biri",
+    author: "merdivenden inip yorulan",
     text: "Dönme Dolap'ta 'bu iş böyledir' diyip kapatıyorsun — ama şarkı yapmış olmak, kapatmamış olmak değil mi?",
   },
   {
     id: 93, category: "Sözlük Sorusu", emoji: "📖",
-    author: "çayı hep soğuyan",
+    author: "kuyrukta yanlış sıraya giren",
     text: "'Çatlak bi plaktan gelen sesler gibi' — bu ses her zaman mı böyle miydi, yoksa bir şeyden sonra mı çatladı?",
   },
   {
     id: 94, category: "Sözlük Sorusu", emoji: "📖",
-    author: "aklı başında değil",
+    author: "kafede en uzun oturan",
     text: "'Amalar yok ama amansız' — ama kelimesini kaldırdın ama amansızlığı bıraktın. Bu çelişkiyi nasıl taşıyorsun?",
   },
   {
     id: 95, category: "Sözlük Sorusu", emoji: "📖",
-    author: "varoluşu kabul eden biri",
+    author: "siparişi son anda değiştiren",
     text: "'Ne fark eder artık?' — bunu söylerken gerçekten inanıyorsun, yoksa söyleyince inanılan bir cümle mi bu?",
   },
   {
     id: 96, category: "Sözlük Sorusu", emoji: "📖",
-    author: "tamamen tesadüfen buraya geldim",
+    author: "garsonla dalga geçen",
     text: "'Aptal mıyım neyim çözemedim' — bu soruyu gerçekten soruyor musun, yoksa cevabı bildiğin için sormak çok daha güvenli mi?",
   },
   {
     id: 97, category: "Sözlük Sorusu", emoji: "📖",
-    author: "yorgun ama devam eden",
+    author: "hesabı bekleyen",
     text: "Aya Gidelim'de kavgayı plana koydun. Kavgasız bir ilişkiyi gerçek bulur musun? Yoksa kavga olmadan kimya var mı sence?",
   },
   {
     id: 98, category: "Sözlük Sorusu", emoji: "📖",
-    author: "sabah beşte uyanan kullanıcı",
+    author: "en son çıkan",
     text: "Kuyu'da Haluk Bilginer'le sahne yaparken o anda kim olduğunu bilmek zorunda mıydın, yoksa bilmemek daha mı iyiydi?",
   },
   {
     id: 99, category: "Sözlük Sorusu", emoji: "📖",
-    author: "anlamsız işler kooperatifi",
+    author: "en geç uyuyan",
     text: "Cem Yılmaz'la çalışmak bir onay gibi hissettiriyor insana. Sende de öyle miydi, yoksa 'sadece bir iş' miydi?",
   },
   {
     id: 100, category: "Sözlük Sorusu", emoji: "📖",
-    author: "kedisi olan yazar",
+    author: "sabah en erken kalkan",
     text: "Motosikletle uzun yola çıkınca 'dönmesem ne olur' diye düşündüğün oluyor mu? Bu korkutucu mu, yoksa hoş mu?",
   },
   {
     id: 101, category: "Sözlük Sorusu", emoji: "📖",
-    author: "bir türlü bitmeyen melankoli",
+    author: "yağmuru pencereden izleyen",
     text: "'Milyarcası orda biz hep baş başa kaldık' — milyarcası görmezden gelmek kolay mı, yoksa onları görmemek için bir çaba mı gerekiyor?",
   },
   {
     id: 102, category: "Sözlük Sorusu", emoji: "📖",
-    author: "sessizce izleyen biri",
+    author: "balon kıran",
     text: "'Bu benim diyorum' — öncesinde başkasının mıydın? Bu sahiplenme nereden geldi?",
   },
   {
     id: 103, category: "Sözlük Sorusu", emoji: "📖",
-    author: "kırmızı şemsiyeli kadın",
+    author: "güz yapraklarını saklayan",
     text: "Tanışmak istedim ama şarkıların beni yeterince tanıştırdı. Bu seni rahatlatıyor mu yoksa ürkütüyor mu?",
   },
   {
     id: 104, category: "Sözlük Sorusu", emoji: "📖",
-    author: "geceleri uyku tutmayan biri",
+    author: "kışın üşümeyi seven",
     text: "'Ne Fark Eder' şarkısını yazarken 'gerçekten fark etmez' diye inanıyor muydun, yoksa o kadar fark ettiği için mi yazdın?",
   },
   {
     id: 105, category: "Sözlük Sorusu", emoji: "📖",
-    author: "uzun yolda kaybolan",
+    author: "kapıyı çalmadan giren",
     text: "Motosikletle yolda giderken müzikten mi kaçıyorsun, müziğe mi gidiyorsun? İkisi de aynı şey mi?",
   },
   {
     id: 106, category: "Sözlük Sorusu", emoji: "📖",
-    author: "cafenin en sessiz köşesi",
+    author: "hep pencere kenarına oturan",
     text: "Biz de Ünlüydük!'teki o twist — sezon boyunca izleyicide hiç şüphe uyandı mı, yoksa final gelince gerçekten şok mı yaşandı?",
   },
   {
     id: 107, category: "Sözlük Sorusu", emoji: "📖",
-    author: "düşünmeyi seven aptal",
+    author: "çantasında ne olduğunu bilmeyen",
     text: "Galatasaray kaybedince şarkı yazıyor musun, yoksa o gece hiçbir şey yapamıyor musun?",
   },
 
