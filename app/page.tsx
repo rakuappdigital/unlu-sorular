@@ -3,13 +3,13 @@
 import { useState, useEffect, useCallback } from "react";
 import {
   QUESTIONS, PERSONA, ALL_CATEGORIES, CATEGORY_COLORS, CATEGORY_EMOJIS,
-  ONEDIO_QUESTIONS, ROAST_ENTRIES,
-  type Category, type Question, type OnedioQuestion, type RoastEntry,
+  ONEDIO_QUESTIONS, ROAST_ENTRIES, GALAKSI_SORULARI,
+  type Category, type Question, type OnedioQuestion, type RoastEntry, type GalaksiSoru,
 } from "./data";
 
 type MainScreen = "start" | "quiz" | "done";
 type OnedioScreen = "pick" | "question" | "done";
-type Tab = "röportaj" | "onedio" | "roast";
+type Tab = "röportaj" | "onedio" | "roast" | "galaksi";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -617,6 +617,105 @@ function RoastTab() {
   );
 }
 
+// ── GALAKSİ REHBERİ ───────────────────────────────────────────────
+function GalaksiTab() {
+  const [deck] = useState<GalaksiSoru[]>(() => shuffle(GALAKSI_SORULARI));
+  const [index, setIndex] = useState(0);
+  const [history, setHistory] = useState<number[]>([]);
+  const [animating, setAnimating] = useState(false);
+  const [animDir, setAnimDir] = useState<"fwd" | "back">("fwd");
+
+  const go = (dir: "fwd" | "back") => {
+    if (animating) return;
+    if (dir === "back" && history.length === 0) return;
+    setAnimDir(dir);
+    setAnimating(true);
+    setTimeout(() => {
+      if (dir === "fwd") {
+        setHistory(h => [...h, index]);
+        setIndex(i => (i + 1) % deck.length);
+      } else {
+        const prev = history[history.length - 1];
+        setHistory(h => h.slice(0, -1));
+        setIndex(prev);
+      }
+      setAnimating(false);
+    }, 260);
+  };
+
+  useEffect(() => {
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight" || e.key === "Enter") go("fwd");
+      if (e.key === "ArrowLeft" && history.length > 0) go("back");
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [animating, history, index, deck.length]);
+
+  const current = deck[index];
+  if (!current) return null;
+
+  const animClass = animating
+    ? (animDir === "fwd" ? "animate-slide-out" : "animate-slide-out-back")
+    : "animate-fade-in-up";
+
+  const seen = history.length + 1;
+
+  return (
+    <div className="w-full max-w-2xl mx-auto">
+      <div className="fixed top-8 left-0 right-0 z-40">
+        <div className="h-0.5 w-full" style={{ background: "var(--border)" }}>
+          <div className="h-0.5 transition-all duration-500" style={{ width: `${(seen / deck.length) * 100}%`, background: "linear-gradient(90deg, #6366f1, #a78bfa)" }} />
+        </div>
+      </div>
+
+      <div className="flex items-center justify-between mb-10">
+        <div>
+          <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "#a78bfa" }}>GALAKSİ REHBERİ</p>
+          <p className="text-xs" style={{ color: "var(--muted)" }}>Demirkol tarzı</p>
+        </div>
+        <span className="text-sm" style={{ color: "var(--muted)" }}>{seen} / {deck.length}</span>
+      </div>
+
+      <div key={index} className={`rounded-2xl p-8 md:p-14 mb-10 ${animClass}`}
+        style={{
+          background: "var(--card)",
+          border: "1px solid rgba(99,102,241,0.25)",
+          boxShadow: "0 0 40px rgba(99,102,241,0.08)",
+        }}>
+        <div className="flex items-center gap-2 mb-8">
+          <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
+            style={{ background: "linear-gradient(135deg,#6366f1,#a78bfa)", color: "#fff" }}>
+            M
+          </div>
+          <span className="text-xs font-medium tracking-wide" style={{ color: "#a78bfa" }}>
+            {current.nick}
+          </span>
+        </div>
+        <p className="text-2xl md:text-3xl leading-relaxed font-medium"
+          style={{ color: "var(--text)", fontFamily: "'Playfair Display', serif" }}>
+          {current.text}
+        </p>
+        <div className="mt-10 h-px" style={{ background: "rgba(99,102,241,0.2)" }} />
+        <p className="mt-4 text-xs" style={{ color: "var(--muted)" }}>Soru {seen} / {deck.length}</p>
+      </div>
+
+      <div className="flex gap-3 justify-center">
+        <button onClick={() => go("back")} disabled={history.length === 0}
+          className="btn-skip px-6 py-3.5 rounded-full text-sm disabled:opacity-30 disabled:cursor-not-allowed">
+          ← Geri
+        </button>
+        <button onClick={() => go("fwd")}
+          className="px-8 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all hover:scale-105"
+          style={{ background: "linear-gradient(135deg,#6366f1,#a78bfa)", color: "#fff" }}>
+          Sonraki ✦
+        </button>
+      </div>
+      <p className="text-center mt-5 text-xs" style={{ color: "var(--muted)" }}>← → ok tuşları da çalışır</p>
+    </div>
+  );
+}
+
 // ── ROOT ───────────────────────────────────────────────────────────
 export default function Home() {
   const [tab, setTab] = useState<Tab>("röportaj");
@@ -625,6 +724,7 @@ export default function Home() {
     "röportaj": "🎤 Röportaj",
     "onedio": "🫙 Onedio",
     "roast": "🔥 Roast",
+    "galaksi": "🌌 Galaksi",
   };
 
   return (
@@ -634,16 +734,17 @@ export default function Home() {
       {/* Tab bar */}
       <div className="fixed top-0 left-0 right-0 z-30 flex items-center justify-center gap-1 pt-3 pb-2"
         style={{ background: "rgba(10,10,15,0.9)", backdropFilter: "blur(12px)", borderBottom: "1px solid var(--border)" }}>
-        {(["röportaj", "onedio", "roast"] as Tab[]).map(t => (
+        {(["röportaj", "onedio", "roast", "galaksi"] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
             className={`px-4 py-1.5 rounded-full text-xs font-medium tracking-wider uppercase transition-all ${
-              tab === t
-                ? t === "roast"
-                  ? "text-white"
-                  : "btn-next"
-                : "text-[var(--muted)] hover:text-[var(--text)]"
+              tab === t && t !== "roast" && t !== "galaksi" ? "btn-next" :
+              tab === t ? "text-white" : "text-[var(--muted)] hover:text-[var(--text)]"
             }`}
-            style={tab === t && t === "roast" ? { background: "linear-gradient(135deg,#ef4444,#f97316)" } : {}}>
+            style={
+              tab === t && t === "roast" ? { background: "linear-gradient(135deg,#ef4444,#f97316)" } :
+              tab === t && t === "galaksi" ? { background: "linear-gradient(135deg,#6366f1,#a78bfa)" } :
+              {}
+            }>
             {TAB_LABELS[t]}
           </button>
         ))}
@@ -653,6 +754,7 @@ export default function Home() {
         {tab === "röportaj" && <MainQuiz onBack={() => {}} />}
         {tab === "onedio" && <OnedioGame onBack={() => setTab("röportaj")} />}
         {tab === "roast" && <RoastTab />}
+        {tab === "galaksi" && <GalaksiTab />}
       </div>
     </main>
   );

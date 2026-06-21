@@ -1086,3 +1086,164 @@ export const ROAST_ENTRIES: RoastEntry[] = [
     text: "yap boz şarkısının ilk adının 'dikdörtgen' olduğu söyleniyor. ekip reddetmiş. 'yapboz daha romantik' demişler. buna nasıl itiraz edebilirsin ki.",
   },
 ];
+
+// ─── GALAKSİ REHBERİ SORULARI ────────────────────────────────────
+// Demirkol tarzı: derin, kişisel, kariyer + kimlik + dürüstlük
+export interface GalaksiSoru {
+  id: number;
+  text: string;
+  nick: string;
+}
+
+export const GALAKSI_SORULARI: GalaksiSoru[] = [
+  {
+    id: 1,
+    nick: "M. Demirkol",
+    text: "Bu işe düştün mü, yoksa seçtin mi? Farkı büyük çünkü.",
+  },
+  {
+    id: 2,
+    nick: "M. Demirkol",
+    text: "Krant olmadan bir hayat kursaydın ne yapardın? Gerçekten düşün, 'bilmiyorum' deme.",
+  },
+  {
+    id: 3,
+    nick: "M. Demirkol",
+    text: "Kariyerinde ilk kez 'bunu yapabiliyorum' dediğin an hangisiydi?",
+  },
+  {
+    id: 4,
+    nick: "M. Demirkol",
+    text: "Seni en çok kim şekillendirdi? Bir isim.",
+  },
+  {
+    id: 5,
+    nick: "M. Demirkol",
+    text: "Hayatında geri alacağın tek bir karar olsa — ve sadece bir tane — hangisi?",
+  },
+  {
+    id: 6,
+    nick: "M. Demirkol",
+    text: "Başarı ve şans arasındaki sınırı nerede çiziyorsun? Kendin için.",
+  },
+  {
+    id: 7,
+    nick: "M. Demirkol",
+    text: "Seni eleştirenlerin haklı olduğu bir şey var mı? Söyleyebilir misin?",
+  },
+  {
+    id: 8,
+    nick: "M. Demirkol",
+    text: "En kötü döneminde sana biri bir şey söyledi ve tutunmana yardım etti. Ne söyledi o?",
+  },
+  {
+    id: 9,
+    nick: "M. Demirkol",
+    text: "Bu işin sana verdiği en büyük şey ne, en büyük bedeli ne? İkisini birden söyle.",
+  },
+  {
+    id: 10,
+    nick: "M. Demirkol",
+    text: "Hiç 'yanlış yoldasın' dedin mi kendine? O an ne yaptın?",
+  },
+  {
+    id: 11,
+    nick: "M. Demirkol",
+    text: "Birine 'sen olmasaydın ben bu noktada olmazdım' diyebilir misin? Kim o?",
+  },
+  {
+    id: 12,
+    nick: "M. Demirkol",
+    text: "Bu kariyerde en çok ne zaman yalnız hissettin?",
+  },
+  {
+    id: 13,
+    nick: "M. Demirkol",
+    text: "Başkalarının seni nasıl gördüğünü gerçekten bilmek ister miydin?",
+  },
+  {
+    id: 14,
+    nick: "M. Demirkol",
+    text: "Hayatını bir albüm olarak kursaydın, şu an kaçıncı şarkıdasın?",
+  },
+  {
+    id: 15,
+    nick: "M. Demirkol",
+    text: "Seni en iyi anlayan insan kim? O kişi bunun farkında mı?",
+  },
+  {
+    id: 16,
+    nick: "M. Demirkol",
+    text: "Bir gün bu işi bırakmak zorunda kalsaydın, son olarak ne yapmak isterdin?",
+  },
+  {
+    id: 17,
+    nick: "M. Demirkol",
+    text: "Bir başarısızlığını kime anlattın? O kişi nasıl karşıladı?",
+  },
+  {
+    id: 18,
+    nick: "M. Demirkol",
+    text: "Kendinle dürüst olabildiğin anlar var mı gerçekten? Bu ne kadar zor?",
+  },
+  {
+    id: 19,
+    nick: "M. Demirkol",
+    text: "Bu işi yaparken hiç korktuğun oldu mu? Neyin korkusu?",
+  },
+  {
+    id: 20,
+    nick: "M. Demirkol",
+    text: "İyi bir eser yaratmak mı, çok izlenip dinlenilmek mi — gerçekten hangisi?",
+  },
+  {
+    id: 21,
+    nick: "M. Demirkol",
+    text: "Müzik mi oyunculuk mu — biri olmak zorunda kalsaydın?",
+  },
+  {
+    id: 22,
+    nick: "M. Demirkol",
+    text: "Seni seven biri seni nasıl tanımlar, sevmeyen biri nasıl? İkisi de doğru mu?",
+  },
+  {
+    id: 23,
+    nick: "M. Demirkol",
+    text: "Bir şeyde başarısız olduktan sonra ne kadar süre geçiyor tekrar denemene kadar?",
+  },
+  {
+    id: 24,
+    nick: "M. Demirkol",
+    text: "Bu galakside nereye gidiyorsun? Bir yer söyle.",
+  },
+  {
+    id: 25,
+    nick: "M. Demirkol",
+    text: "Hayatında hiç 'bu şansa layık mıyım' diye düşündün mü?",
+  },
+  {
+    id: 26,
+    nick: "M. Demirkol",
+    text: "Sana çok kolay geldiği için suçluluk duyduğun bir şey var mı?",
+  },
+  {
+    id: 27,
+    nick: "M. Demirkol",
+    text: "On yıl sonra nerede olmak istiyorsun? Gerçek cevap.",
+  },
+  {
+    id: 28,
+    nick: "M. Demirkol",
+    text: "Kimse izlemese, dinlemese, bilmese — yine de yapıyor muydin?",
+  },
+  {
+    id: 29,
+    nick: "M. Demirkol",
+    text: "En büyük pişmanlığın ne — ama bunu ilk kez söylüyorsun gibi söyle.",
+  },
+  {
+    id: 30,
+    nick: "M. Demirkol",
+    text: "Bu konuşmada söylemek isteyip söyleyemediğin bir şey var mıydı?",
+  },
+];
